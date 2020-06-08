@@ -1,0 +1,17 @@
+﻿@viewModel Mirecad.Dotvvm.Toast.Sample.ViewModels.MasterPageViewModel, Mirecad.Dotvvm.Toast.Sample
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Mirecad.Dotvvm.Toast.Sample</title>
+    <dot:RequiredResource Name="bootstrap" />
+</head>
+<body>
+
+ 	
+
+	<dot:ContentPlaceHolder ID="MainContent" />
+
+</body>
+</html>

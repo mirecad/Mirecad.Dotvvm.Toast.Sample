@@ -1,0 +1,14 @@
+﻿@viewModel Mirecad.Dotvvm.Toast.Sample.ViewModels.DefaultViewModel, Mirecad.Dotvvm.Toast.Sample
+@masterPage Views/MasterPage.dotmaster
+	<dot:Content ContentPlaceHolderID="MainContent">
+
+		<h1>{{value: Title}}</h1>
+
+		<dot:Repeater DataSource="{value: Toasts}">
+			<ItemTemplate>
+				<bs:Toast IsDisplayed="{value: IsDisplayed}">
+					{{value: Content}}
+				</bs:Toast>
+			</ItemTemplate>
+		</dot:Repeater>
+	</dot:Content>
